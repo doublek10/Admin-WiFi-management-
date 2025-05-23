@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contrals||G•W•W</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: black;
+    }
+    .form-container {
+      width: 300px;
+      background: gray;
+      align-items: center;
+      color: white;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    label, select, input {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .crypto-address {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Account</h2>
+    <form id="contralform" action="#">
+      <label for="crypto">Choose account:</label>
+      <select id="crypto" name="contral" required>
+        <option value="">Select</option>
+        <option value="admin">Managment</option>
+        <option value="subM">system managment</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+<script src="javaS/log.js"></script>
+</body>
+</html>
